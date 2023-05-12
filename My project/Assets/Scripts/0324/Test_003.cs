@@ -4,25 +4,21 @@ using UnityEngine;
 
 public class Test_003 : MonoBehaviour
 {
-    public int herbNum = 1;                    //ì •ìˆ˜ herbNum ì„ ì–¸í›„ì— 1ì„ ì…ë ¥ (public ì¶”ê°€ , ì¸ìŠ¤ì°½ì—ì„œ ë³´ì—¬ì£¼ê¸°í•´ì„œ ì„ ì–¸)
-    // Start is called before the first frame update
+    public int herbNum = 1;                 //Á¤¼ö HerbNum ¼±¾ğÈÄ¿¡ 1À» ÀÔ·Â (public Ãß°¡, ÀÎ½ºÃ¢¿¡¼­ º¸¿©ÁÖ±âÇØ¼­ ¼±¾ğ)
+
     void Start()
     {
 
-        if(herbNum == 1)                    //ì¡°ê±´ì‹ herbNum ì´ 1ì¼ ê²½ìš° ì•ˆì— ë¡œì§ì„ ì‹¤í–‰í•œë‹¤.
+        if(herbNum == 1)                    //Á¶°Ç½Ä herbNum ÀÌ 1ÀÏ °æ¿ì ¾È¿¡ ·ÎÁ÷À» ½ÇÇàÇÑ´Ù.
         {
-            Debug.Log("ì²´ë ¥ì„ 50 íšŒë³µ");     //Console.log ì°½ì— ì¡°ê±´ì´ ë§Œì¡±ë  ê²½ìš° í•´ë‹¹ ë‚´ìš©ì„ í‘œì‹œí•œë‹¤.
+            Debug.Log("Ã¼·ÂÀ» 50 È¸º¹");    //Console.log Ã¢¿¡ Á¶°ÇÀÌ ¸¸Á·µÉ °æ¿ì ÇØ´ç ³»¿ëÀ» Ç¥½ÃÇÑ´Ù.
         }
         else
         {
-             Debug.Log("ì²´ë ¥ -50 ");     //Console.log ì°½ì— ì¡°ê±´ì´ ë§Œì¡±ë  ê²½ìš° í•´ë‹¹ ë‚´ìš©ì„ í‘œì‹œí•œë‹¤.
+            Debug.Log("Ã¼·Â -50 ");         //Console.log Ã¢¿¡ Á¶°ÇÀÌ ¸¸Á·µÉ °æ¿ì ÇØ´ç ³»¿ëÀ»
         }
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }
